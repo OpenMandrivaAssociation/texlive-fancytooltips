@@ -1,3 +1,9 @@
+# revision 20781
+# category Package
+# catalog-ctan /macros/latex/contrib/fancytooltips
+# catalog-date 2010-04-08 16:01:05 +0200
+# catalog-license lppl1.2
+# catalog-version 1.6
 Name:		texlive-fancytooltips
 Version:	1.6
 Release:	1
@@ -97,6 +103,7 @@ from the AcroTeX bundle.
 #- source
 %doc %{_texmfdistdir}/source/latex/fancytooltips/fancytooltips.dtx
 %doc %{_texmfdistdir}/source/latex/fancytooltips/fancytooltips.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -107,3 +114,5 @@ from the AcroTeX bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
