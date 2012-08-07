@@ -1,12 +1,12 @@
-# revision 20781
+# revision 27129
 # category Package
 # catalog-ctan /macros/latex/contrib/fancytooltips
-# catalog-date 2010-04-08 16:01:05 +0200
+# catalog-date 2012-06-03 20:06:11 +0200
 # catalog-license lppl1.2
-# catalog-version 1.6
+# catalog-version 1.8
 Name:		texlive-fancytooltips
-Version:	1.6
-Release:	2
+Version:	1.8
+Release:	1
 Summary:	Include a wide range of material in PDF tooltips
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
@@ -42,50 +42,24 @@ from the AcroTeX bundle.
 %{_texmfdistdir}/tex/latex/fancytooltips/fancytipmark.pdf
 %{_texmfdistdir}/tex/latex/fancytooltips/fancytipmark.svg
 %{_texmfdistdir}/tex/latex/fancytooltips/fancytooltips.sty
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.sin.table
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview/fancy-preview-demo.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview/fancypreview.bat
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/LDF.jpg
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/README
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/complie.sh
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/fancy-preview
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/marik.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/slides.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview2/slides.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-dvips.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-min-dvips.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-min-dvips.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-min.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example-min.tex
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/cite.png
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview-demo.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview-demo.sin.table
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview-demo.tex
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview-demo2.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancy-preview-demo2.tex
 %doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example.pdf
 %doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/fancytooltips-example.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tecna2.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/images/ttp-1.jpg
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/logo.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_anchor.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_centerpopup.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_crossframe.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_cssstyle.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_debug.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_exclusive.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_followscroll.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_hideform.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_setonoff.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/overlib_shadow.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html-js.js
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.css
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.html
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html.tips
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tex4ht/tooltips2html2.html
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tooltipy.pdf
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tooltipy.tex
-%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/tooltipy.tips
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/pics/tecna2.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/pics/tooltipy.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/pics/tooltipy.tex
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/pics/tooltipy.tips
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/examples/readme
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/fancy-preview
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/fancytipmark1.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/fancytipmark2.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/fancytipmark3.pdf
+%doc %{_texmfdistdir}/doc/latex/fancytooltips/fancytipmark4.pdf
 %doc %{_texmfdistdir}/doc/latex/fancytooltips/fancytooltips.pdf
 %doc %{_texmfdistdir}/doc/latex/fancytooltips/readme
 %doc %{_texmfdistdir}/doc/latex/fancytooltips/tip.pdf
