@@ -6,7 +6,7 @@
 # catalog-version 1.8
 Name:		texlive-fancytooltips
 Version:	1.8
-Release:	5
+Release:	6
 Summary:	Include a wide range of material in PDF tooltips
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
