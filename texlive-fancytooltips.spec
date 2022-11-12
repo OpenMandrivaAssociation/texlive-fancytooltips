@@ -1,19 +1,13 @@
-# revision 27129
-# category Package
-# catalog-ctan /macros/latex/contrib/fancytooltips
-# catalog-date 2012-06-03 20:06:11 +0200
-# catalog-license lppl1.2
-# catalog-version 1.8
 Name:		texlive-fancytooltips
-Version:	1.8
-Release:	10
+Version:	56291
+Release:	1
 Summary:	Include a wide range of material in PDF tooltips
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,12 +23,12 @@ The links and JavaScripts are inserted using eforms package
 from the AcroTeX bundle.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -70,7 +64,8 @@ from the AcroTeX bundle.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
