@@ -1,6 +1,6 @@
 Name:		texlive-fancytooltips
 Version:	56291
-Release:	1
+Release:	2
 Summary:	Include a wide range of material in PDF tooltips
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
