@@ -3,7 +3,7 @@ Version:	56291
 Release:	2
 Summary:	Include a wide range of material in PDF tooltips
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fancytooltips
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytooltips.doc.r%{version}.tar.xz
